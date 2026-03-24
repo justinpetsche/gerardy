@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bark: #1c1917;
+  --color-bark-light: #292524;
+  --color-bark-lighter: #3d3835;
+  --color-sand: #f5f0eb;
+  --color-sand-muted: #c4b8a9;
+  --color-sand-dim: #8a7e72;
+  --color-gold: #b8860b;
+  --color-gold-muted: #96700a;
+  --color-forest: #2d4a2d;
+  --color-forest-light: #3d6b3d;
+}
