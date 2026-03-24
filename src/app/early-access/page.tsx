@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function EarlyAccessPage() {
   return (
     <main>
-      <section className="flex min-h-screen items-center justify-center px-6 lg:px-8">
+      <section className="flex min-h-screen items-center justify-center px-6 pt-24 pb-12 lg:px-8">
         <SignupForm />
       </section>
     </main>

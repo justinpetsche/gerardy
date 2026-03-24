@@ -72,7 +72,7 @@ export default function FeaturesPage() {
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-6">
             Features
           </p>
-          <h1 className="text-4xl font-light leading-snug tracking-tight text-sand sm:text-6xl max-w-2xl">
+          <h1 className="text-4xl font-light leading-snug tracking-tight text-sand sm:text-6xl max-w-2xl leading-tight">
             Simple where it matters.
             <br />
             Powerful where it counts.
@@ -83,7 +83,7 @@ export default function FeaturesPage() {
       {/* Launching With */}
       <section className="px-6 pt-20 pb-8 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-4">
             Launching With
           </p>
@@ -98,7 +98,7 @@ export default function FeaturesPage() {
       {/* Building Next */}
       <section className="px-6 pt-32 pb-8 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-4">
             Building Next
           </p>
@@ -111,16 +111,16 @@ export default function FeaturesPage() {
       {renderFeatures(roadmapFeatures)}
 
       {/* CTA */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
           <h2 className="text-3xl font-light leading-snug tracking-tight text-sand sm:text-4xl">
             Be first to see it come together.
           </h2>
           <div className="mt-10">
             <Link
               href="/early-access"
-              className="inline-block bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors"
+              className="inline-block w-full sm:w-auto bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors text-center"
             >
               Get Early Access
             </Link>

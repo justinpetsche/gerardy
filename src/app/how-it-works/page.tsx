@@ -73,7 +73,7 @@ export default function HowItWorksPage() {
       {/* SD Card flow */}
       <section className="px-6 pt-16 pb-4 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-4">
             SD Card Cameras
           </p>
@@ -103,7 +103,7 @@ export default function HowItWorksPage() {
       {/* Cellular flow */}
       <section className="px-6 pt-28 pb-4 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-4">
             Cellular Cameras
           </p>
@@ -134,9 +134,9 @@ export default function HowItWorksPage() {
       ))}
 
       {/* Teaser + CTA */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
 
           <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-6">
             And Then
@@ -162,14 +162,14 @@ export default function HowItWorksPage() {
       {/* Final CTA */}
       <section className="px-6 py-24 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
           <h2 className="text-3xl font-light tracking-tight text-sand sm:text-4xl">
             Ready to try it?
           </h2>
           <div className="mt-10">
             <Link
               href="/early-access"
-              className="inline-block bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors"
+              className="inline-block w-full sm:w-auto bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors text-center"
             >
               Get Early Access
             </Link>

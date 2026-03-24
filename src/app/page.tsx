@@ -7,32 +7,32 @@ export default function Home() {
       <section className="relative flex min-h-screen items-center justify-center px-6 lg:px-8">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-bark via-bark-light/20 to-bark" />
 
-        <div className="max-w-3xl text-center">
-          <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-8">
+        <div className="max-w-3xl text-center px-2">
+          <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-6 sm:mb-8">
             Coming Soon
           </p>
 
-          <h1 className="text-5xl font-light leading-[1.15] tracking-tight text-sand sm:text-7xl">
+          <h1 className="text-4xl font-light leading-[1.15] tracking-tight text-sand sm:text-7xl">
             Your trail cameras.
             <br />
             One&nbsp;place.
           </h1>
 
-          <p className="mx-auto mt-10 max-w-lg text-lg leading-relaxed text-sand-muted">
+          <p className="mx-auto mt-8 sm:mt-10 max-w-lg text-base sm:text-lg leading-relaxed text-sand-muted">
             Upload from any camera. AI finds what matters.
             Share with your group in one tap.
           </p>
 
-          <div className="mt-14 flex flex-col sm:flex-row items-center justify-center gap-5">
+          <div className="mt-10 sm:mt-14 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-5">
             <Link
               href="/early-access"
-              className="inline-block bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors"
+              className="inline-block w-full sm:w-auto bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors text-center"
             >
               Get Early Access
             </Link>
             <Link
               href="/features"
-              className="inline-block border border-sand-dim/20 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-sand hover:bg-sand/5 transition-colors"
+              className="inline-block w-full sm:w-auto border border-sand-dim/20 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-sand hover:bg-sand/5 transition-colors text-center"
             >
               See Features
             </Link>
@@ -41,14 +41,14 @@ export default function Home() {
       </section>
 
       {/* Three pillars */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-5xl">
           <div className="grid grid-cols-1 gap-20 sm:grid-cols-3 sm:gap-16">
             <div>
               <div className="mb-6 h-px w-12 bg-gold/40" />
               <h3 className="text-2xl font-light text-sand mb-4 leading-snug">
                 Any camera.
-                <br />
+                {" "}
                 One library.
               </h3>
               <p className="text-sm leading-7 text-sand-dim">
@@ -61,7 +61,7 @@ export default function Home() {
               <div className="mb-6 h-px w-12 bg-gold/40" />
               <h3 className="text-2xl font-light text-sand mb-4 leading-snug">
                 AI finds
-                <br />
+                {" "}
                 the bucks.
               </h3>
               <p className="text-sm leading-7 text-sand-dim">
@@ -74,7 +74,7 @@ export default function Home() {
               <div className="mb-6 h-px w-12 bg-gold/40" />
               <h3 className="text-2xl font-light text-sand mb-4 leading-snug">
                 Share with
-                <br />
+                {" "}
                 one tap.
               </h3>
               <p className="text-sm leading-7 text-sand-dim">
@@ -87,13 +87,13 @@ export default function Home() {
       </section>
 
       {/* The problem — tight */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
 
           <h2 className="text-3xl font-light leading-snug tracking-tight text-sand sm:text-5xl">
             You spend more time managing
-            <br />
+            {" "}
             trail cam content than using it.
           </h2>
 
@@ -114,9 +114,9 @@ export default function Home() {
       </section>
 
       {/* On the horizon */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-5xl">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
 
           <div className="text-center mb-16">
             <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-6">
@@ -178,9 +178,9 @@ export default function Home() {
       </section>
 
       {/* Compatibility */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-5xl text-center">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
 
           <h2 className="text-3xl font-light tracking-tight text-sand sm:text-4xl">
             Works with every camera you own.
@@ -209,19 +209,19 @@ export default function Home() {
       </section>
 
       {/* Final CTA */}
-      <section className="px-6 py-32 lg:px-8">
+      <section className="px-6 py-20 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="h-px w-full bg-sand-dim/10 mb-20" />
+          <div className="h-px w-full bg-sand-dim/10 mb-12 sm:mb-20" />
 
           <h2 className="text-3xl font-light leading-snug tracking-tight text-sand sm:text-5xl">
             Stop managing chaos.
-            <br />
+            {" "}
             Start sharing what matters.
           </h2>
           <div className="mt-12">
             <Link
               href="/early-access"
-              className="inline-block bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors"
+              className="inline-block w-full sm:w-auto bg-gold/90 px-10 py-4 text-sm font-medium tracking-[0.15em] uppercase text-bark hover:bg-gold transition-colors text-center"
             >
               Get Early Access
             </Link>
