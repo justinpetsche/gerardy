@@ -56,17 +56,25 @@ const cellSteps = [
 export default function HowItWorksPage() {
   return (
     <main>
-      {/* Header */}
-      <section className="px-6 pt-32 pb-12 lg:px-8">
-        <div className="mx-auto max-w-5xl">
-          <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-6">
-            How It Works
-          </p>
-          <h1 className="text-4xl font-light leading-snug tracking-tight text-sand sm:text-6xl max-w-2xl">
-            SD card to shared link.
-            <br />
-            Minutes.
-          </h1>
+      {/* Hero image */}
+      <section className="relative h-[50vh] sm:h-[60vh] flex items-end">
+        <img
+          src="/images/IMG_0795.JPG"
+          alt="Northern lake with fall colors"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-bark via-bark/40 to-bark/20" />
+        <div className="relative px-6 pb-12 lg:px-8 w-full">
+          <div className="mx-auto max-w-5xl">
+            <p className="text-xs font-medium tracking-[0.3em] uppercase text-gold mb-6">
+              How It Works
+            </p>
+            <h1 className="text-4xl font-light leading-snug tracking-tight text-sand sm:text-6xl max-w-2xl">
+              SD card to shared link.
+              <br />
+              Minutes.
+            </h1>
+          </div>
         </div>
       </section>
 
@@ -99,6 +107,16 @@ export default function HowItWorksPage() {
           </div>
         </section>
       ))}
+
+      {/* Photo break — badlands sunset panorama */}
+      <section className="relative h-[35vh] sm:h-[45vh] overflow-hidden">
+        <img
+          src="/images/IMG_0543.jpg"
+          alt="Panoramic sunset over badlands"
+          className="h-full w-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-bark/40 via-transparent to-bark/40" />
+      </section>
 
       {/* Cellular flow */}
       <section className="px-6 pt-28 pb-4 lg:px-8">
@@ -157,6 +175,16 @@ export default function HowItWorksPage() {
             </Link>
           </div>
         </div>
+      </section>
+
+      {/* Photo break — food plot */}
+      <section className="relative h-[35vh] sm:h-[45vh] overflow-hidden">
+        <img
+          src="/images/IMG_0833.JPG"
+          alt="Green food plot lined with trees"
+          className="h-full w-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-bark/40 via-transparent to-bark/40" />
       </section>
 
       {/* Final CTA */}

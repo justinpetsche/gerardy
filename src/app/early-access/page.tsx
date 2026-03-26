@@ -10,7 +10,15 @@ export const metadata: Metadata = {
 export default function EarlyAccessPage() {
   return (
     <main>
-      <section className="flex min-h-screen items-center justify-center px-6 pt-24 pb-12 lg:px-8">
+      <section className="relative flex min-h-screen items-center justify-center px-6 pt-24 pb-12 lg:px-8">
+        <div className="absolute inset-0 -z-10">
+          <img
+            src="/images/IMG_3296.jpg"
+            alt="Country road through green fields"
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-bark/80" />
+        </div>
         <SignupForm />
       </section>
     </main>
