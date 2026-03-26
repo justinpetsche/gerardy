@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Img from "@/components/Img";
 
 export const metadata: Metadata = {
   title: "Features — Gerardy",
@@ -126,7 +127,7 @@ export default function FeaturesPage() {
               {feature.image && (
                 <div className="flex-1">
                   <div className="relative aspect-[4/3] overflow-hidden rounded-sm">
-                    <img
+                    <Img
                       src={feature.image}
                       alt={feature.alt}
                       className="h-full w-full object-cover"
@@ -141,7 +142,7 @@ export default function FeaturesPage() {
 
       {/* Photo break — lake */}
       <section className="relative h-[40vh] sm:h-[50vh] overflow-hidden my-8">
-        <img
+        <Img
           src="/images/IMG_0795.JPG"
           alt="Northern lake with fall colors"
           className="h-full w-full object-cover object-center"

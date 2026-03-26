@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Img from "@/components/Img";
 
 export default function Home() {
   return (
@@ -6,7 +7,7 @@ export default function Home() {
       {/* Hero — sunset road */}
       <section className="relative flex min-h-screen items-center justify-center px-6 lg:px-8">
         <div className="absolute inset-0 -z-10">
-          <img
+          <Img
             src="/images/IMG_3996.jpg"
             alt="Sunset over open country"
             className="h-full w-full object-cover"
@@ -90,7 +91,7 @@ export default function Home() {
 
       {/* Photo break — night buck */}
       <section className="relative h-[40vh] sm:h-[50vh] overflow-hidden">
-        <img
+        <Img
           src="/images/MBL_0105.JPG"
           alt="Trail camera capture of a whitetail buck at night"
           className="h-full w-full object-cover object-center"
@@ -123,7 +124,7 @@ export default function Home() {
 
       {/* Photo break — hunter silhouette at sunset */}
       <section className="relative h-[40vh] sm:h-[50vh] overflow-hidden">
-        <img
+        <Img
           src="/images/IMG_0349.jpg"
           alt="Hunter silhouette at sunset"
           className="h-full w-full object-cover object-center"
@@ -197,7 +198,7 @@ export default function Home() {
 
       {/* Photo break — green hills */}
       <section className="relative h-[40vh] sm:h-[50vh] overflow-hidden">
-        <img
+        <Img
           src="/images/IMG_2521.jpg"
           alt="Rolling green hills and open sky"
           className="h-full w-full object-cover object-center"
@@ -208,7 +209,7 @@ export default function Home() {
       {/* Compatibility — with aerial photo */}
       <section className="relative px-6 py-20 sm:py-32 lg:px-8 overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          <img
+          <Img
             src="/images/IMG_0798.JPG"
             alt="Aerial view of wilderness from floatplane"
             className="h-full w-full object-cover"

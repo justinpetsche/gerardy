@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Img from "@/components/Img";
 
 export const metadata: Metadata = {
   title: "How It Works — Gerardy",
@@ -58,7 +59,7 @@ export default function HowItWorksPage() {
     <main>
       {/* Hero image */}
       <section className="relative h-[50vh] sm:h-[60vh] flex items-end">
-        <img
+        <Img
           src="/images/IMG_0795.JPG"
           alt="Northern lake with fall colors"
           className="absolute inset-0 h-full w-full object-cover"
@@ -110,7 +111,7 @@ export default function HowItWorksPage() {
 
       {/* Photo break — badlands sunset panorama */}
       <section className="relative h-[35vh] sm:h-[45vh] overflow-hidden">
-        <img
+        <Img
           src="/images/IMG_0543.jpg"
           alt="Panoramic sunset over badlands"
           className="h-full w-full object-cover object-center"
@@ -179,7 +180,7 @@ export default function HowItWorksPage() {
 
       {/* Photo break — food plot */}
       <section className="relative h-[35vh] sm:h-[45vh] overflow-hidden">
-        <img
+        <Img
           src="/images/IMG_0833.JPG"
           alt="Green food plot lined with trees"
           className="h-full w-full object-cover object-center"

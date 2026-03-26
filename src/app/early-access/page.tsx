@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SignupForm from "@/components/SignupForm";
+import Img from "@/components/Img";
 
 export const metadata: Metadata = {
   title: "Early Access — Gerardy",
@@ -12,7 +13,7 @@ export default function EarlyAccessPage() {
     <main>
       <section className="relative flex min-h-screen items-center justify-center px-6 pt-24 pb-12 lg:px-8">
         <div className="absolute inset-0 -z-10">
-          <img
+          <Img
             src="/images/IMG_3296.jpg"
             alt="Country road through green fields"
             className="h-full w-full object-cover"
